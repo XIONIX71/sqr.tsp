@@ -6,7 +6,7 @@ import java.util.Collections;
 /**
      * 
      * Classe Tour
-     * Permettant de construire une Tour pour une ville donee
+     * Permettant de construire une Tour pour des villes donée
      */
 
 public class Tour{
