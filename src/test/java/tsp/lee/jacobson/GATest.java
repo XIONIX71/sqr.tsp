@@ -12,7 +12,7 @@ public class GATest {
 	 * WHEN yesevolvePopulation
 	 * THEN true
 	 */
-	public void testevolvePopulationyesEvolvePopulationTrue() {
+	public void test_evolvePopulation_yesEvolvePopulation_True() {
 		Population notexpected = new Population(50, true);
 		Population actual = GA.evolvePopulation(notexpected);
 		assertNotEquals(notexpected, actual);
@@ -24,7 +24,7 @@ public class GATest {
 	 * WHEN Best distance
 	 * THEN 4
 	 */
-	public void testevolvePopulationthebesdistance4() {
+	public void test_evolvePopulation_thebestdistance_4() {
 		
 		City A = new City(0,0);
 		City B = new City(0,-1);
