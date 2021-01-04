@@ -53,7 +53,7 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 | getFittest  | T: |  |
 | getTour  | I: | retourne un objet tour utilisant une methode de arraylist |
 | populationSize  | I: | retourne un objet tour utilisant une methode de arraylist |
-| saveTour  | A: | Permet de sauvegarder la tour dans le arraylist, difficile à démontrer |
+| saveTour  | I: | Permet de sauvegarder la tour dans le arraylist, difficile à démontrer |
 
 ## Functions to test now
 
