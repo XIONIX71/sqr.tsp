@@ -75,4 +75,26 @@ public class TourTest {
 		assertEquals(expected, actual);
 	}
 
+	@Test
+	/**
+	 * GIVEN distanceTo
+	 * WHEN ofDouble
+	 * THEN false
+	 */
+	public void getDistance_ofDouble_Exceptionfalse() throws Exception {
+
+		City C1 = new City(0,0);
+		City D1 = new City(1,1);
+		
+		t.add(C1);
+		t.add(D1);
+
+		Tour tour = new Tour(t);
+		double expected = Math.sqrt( 2 );
+		int actual =tour.getDistance();
+
+		assertEquals(expected, actual, 0);
+		//Ne fonctionne pas caar la fonction renvoie int il faudra donc faire en sorte que la fonction renvoie un double
+	}
+
 }
