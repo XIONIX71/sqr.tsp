@@ -1,5 +1,9 @@
 package tsp.lee.jacobson;
-
+/**
+     * 
+     * Classe City
+     * Permettant de construire une ville
+     */
 public class City {
     int x;
     int y;

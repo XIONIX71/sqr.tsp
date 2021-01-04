@@ -1,5 +1,11 @@
 package tsp.lee.jacobson;
 
+/**
+     * 
+     * Classe Population
+     * Permettant de construire une Population pour une Tour donnee
+     */
+
 public class Population {
 
     // Holds population of tours

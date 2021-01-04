@@ -3,6 +3,12 @@ package tsp.lee.jacobson;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+     * 
+     * Classe Tour
+     * Permettant de construire une Tour pour une ville donee
+     */
+
 public class Tour{
 
     // Holds our tour of cities
