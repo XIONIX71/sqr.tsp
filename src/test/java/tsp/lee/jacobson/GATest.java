@@ -36,7 +36,7 @@ public class GATest {
 		TourManager.addCity(C);
 		TourManager.addCity(B);
 		
-		Population pop = new Population(50, true);
+		Population pop = new Population(2, true);
 
 		pop = GA.evolvePopulation(pop);
         for (int i = 0; i < 100; i++) {
