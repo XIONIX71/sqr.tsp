@@ -26,8 +26,8 @@ public class TourTest {
 		t.add(C);
 		Tour tour = new Tour(t);
 		int expected = 4;
-
-		assertEquals(expected,tour.getDistance());
+		int actual = tour.getDistance();
+		assertEquals(expected, actual);
 	}
 
 

@@ -13,9 +13,9 @@ public class GATest {
 	 * THEN true
 	 */
 	public void testevolvePopulationyesEvolvePopulationTrue() {
-		Population pop = new Population(50, true);
-		Population pop2 = GA.evolvePopulation(pop);
-		assertNotEquals(pop, pop2);
+		Population notexpected = new Population(50, true);
+		Population actual = GA.evolvePopulation(notexpected);
+		assertNotEquals(notexpected, actual);
 	}
 
 	@Test
@@ -42,8 +42,9 @@ public class GATest {
         for (int i = 0; i < 100; i++) {
             pop = GA.evolvePopulation(pop);
 		}
-		
-		assertEquals(pop.getFittest().getDistance(), 4);
+		int expected = pop.getFittest().getDistance();
+		int actual = 4;
+		assertEquals(expected, actual);
 		
 	}
 
