@@ -41,7 +41,7 @@ public class CityTest {
 	 * WHEN BFromA
 	 * THEN 1
 	 */
-	public void test_distanceTo_BfromA_1(){
+	public void test_distanceTo_BfromA_1() throws Exception{
 		double expected = 1;
 		double actual = A.distanceTo(B);
 		assertEquals(expected, actual, 0.0);
@@ -53,7 +53,7 @@ public class CityTest {
 	 * WHEN SqrtBetweenAD
 	 * THEN sqrt(2)
 	 */
-	public void test_DistanceTo_SqrtBetweenAD_SqrtOf2() {
+	public void test_DistanceTo_Max_SqrtOf2() throws Exception {
 
 		double expected = Math.sqrt( 2 );
 		double actual = A.distanceTo(D);
