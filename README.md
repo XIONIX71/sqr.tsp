@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T: |  | 
+| getX | D: | getter n'a pas besoin d'être tester | 
+| getY | D: | getter n'a pas besoin d'être tester | 
+| toString | I: | Methode to string n' a pas besoin d'etre tester juste un test d' inspection visuel, car return un string avec 2 getters | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | I: | Méthode de la classe arraylist |
+| getCity  | D: | getter n'a pas besoin d'être tester |
+| getDistance  | T: |  |
+| getFitness  | I: | Nous testons déjà getDistance et c'est un getter de notre classe donc pas à tester |
+| setCity  | D: |  Méthode de la classe arraylist |
+| tourSize  | D: |  Méthode de la classe arraylist |
+| toString  | I: | Methode to string n' a pas besoin d'etre tester juste un test d' inspection visuel, car return un string |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T: |  |
+| getTour  | I: | retourne un objet tour utilisant une methode de arraylist |
+| populationSize  | I: | retourne un objet tour utilisant une methode de arraylist |
+| saveTour  | A: | Permet de sauvegarder la tour dans le arraylist, difficile à démontrer |
 
 ## Functions to test now
 
